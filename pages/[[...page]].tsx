@@ -7,7 +7,7 @@ import builderConfig from '@config/builder'
 // loading widgets dynamically to reduce bundle size, will only be included in bundle when is used in the content
 import '@builder.io/widgets/dist/lib/builder-widgets-async'
 
-builder.init(builderConfig.apiKey)
+builder.init("7573dc5866b5476893ccdc105dec682c")
 
 export async function getStaticProps({
   params,
